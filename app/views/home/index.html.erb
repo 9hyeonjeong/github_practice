@@ -1,0 +1,8 @@
+<h1>당신의 전생은!</h1>
+<form action ='/home/result' method='post'>
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    이름:<input type='text' name='user_name' align="middle"><br><br>
+    생일:<input type='text' name='user_birth' align="middle"><br><br>
+    혈액형:<input type='text' name='user_blood' align="middle"><br><br>
+    <input type='submit'value='제출'>
+</form>
